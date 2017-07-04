@@ -3,13 +3,13 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>com.learn.spring</groupId>
-	<artifactId>micro-springboot</artifactId>
+	<groupId>com.team.service</groupId>
+	<artifactId>teamapp-springboot</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>micro-springboot</name>
-	<description>Demo project for Spring Boot</description>
+	<name>teamapp-springboot</name>
+	<description>Demo project for Team app Spring Boot</description>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>

@@ -1,11 +1,11 @@
-package com.service.interfaces;
+package com.team.service.interfaces;
 
 import java.util.List;
 
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.data.rest.core.annotation.RestResource;
 
-import com.service.entity.Team;
+import com.team.service.entity.Team;
 
 @RestResource(path="teams", rel="team")
 public interface TeamRepository extends CrudRepository<Team, Integer>{

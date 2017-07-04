@@ -1,4 +1,4 @@
-package com.service.entity;
+package com.team.service.entity;
 
 import java.io.Serializable;
 import java.util.Set;

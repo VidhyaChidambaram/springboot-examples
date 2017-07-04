@@ -1,11 +1,11 @@
-package com.service.interfaces;
+package com.team.service.interfaces;
 
 import java.util.List;
 
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.data.rest.core.annotation.RestResource;
 
-import com.service.entity.Player;
+import com.team.service.entity.Player;
 
 @RestResource(path="players", rel="player")
 public interface PlayerRepository extends CrudRepository<Player, Integer> {

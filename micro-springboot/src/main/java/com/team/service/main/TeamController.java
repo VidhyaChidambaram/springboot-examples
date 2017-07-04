@@ -1,4 +1,4 @@
-package com.learn.spring;
+package com.team.service.main;
 
 import java.util.List;
 
@@ -6,8 +6,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import com.service.entity.Team;
-import com.service.interfaces.TeamRepository;
+import com.team.service.entity.Team;
+import com.team.service.interfaces.TeamRepository;
 
 
 public class TeamController {

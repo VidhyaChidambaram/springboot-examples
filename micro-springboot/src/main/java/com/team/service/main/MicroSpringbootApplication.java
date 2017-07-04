@@ -1,4 +1,4 @@
-package com.learn.spring;
+package com.team.service.main;
 
 import java.util.HashSet;
 import java.util.Set;
@@ -12,13 +12,13 @@ import org.springframework.boot.autoconfigure.domain.EntityScan;
 import org.springframework.boot.web.support.SpringBootServletInitializer;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
-import com.service.entity.Player;
-import com.service.entity.Team;
-import com.service.interfaces.TeamRepository;
+import com.team.service.entity.Player;
+import com.team.service.entity.Team;
+import com.team.service.interfaces.TeamRepository;
 
 @SpringBootApplication
-@EnableJpaRepositories("com.service.interfaces")
-@EntityScan("com.service.entity")
+@EnableJpaRepositories("com.team.service.interfaces")
+@EntityScan("com.team.service.entity")
 public class MicroSpringbootApplication extends SpringBootServletInitializer {
 
 	@Autowired
