@@ -1,2 +1,2 @@
 # springboot-examples
-Developinig micro services with spring boot and spring cloud api
+Developing micro services with spring boot and spring cloud api
