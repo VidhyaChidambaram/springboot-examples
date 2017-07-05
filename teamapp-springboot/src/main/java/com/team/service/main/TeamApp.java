@@ -19,7 +19,7 @@ import com.team.service.interfaces.TeamRepository;
 @SpringBootApplication
 @EnableJpaRepositories("com.team.service.interfaces")
 @EntityScan("com.team.service.entity")
-public class MicroSpringbootApplication extends SpringBootServletInitializer {
+public class TeamApp extends SpringBootServletInitializer {
 
 	@Autowired
 	private TeamRepository teamRepository;
@@ -50,7 +50,7 @@ public class MicroSpringbootApplication extends SpringBootServletInitializer {
 	
 	
 	public static void main(String[] args) {
-		SpringApplication.run(MicroSpringbootApplication.class, args);
+		SpringApplication.run(TeamApp.class, args);
 	}
 	
 	
