@@ -1,0 +1,11 @@
+server.port: 8001
+  
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/VidhyaChidambaram/ConfigData
+          search-paths: ConfigData
+        native:
+          search-locations: classpath:/cloud-config
