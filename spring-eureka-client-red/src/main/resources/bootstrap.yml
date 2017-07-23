@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: spring-eureka-client-red
+  profiles:
+    active: red
+  cloud:
+    config:
+      uri: http://localhost:8001 
